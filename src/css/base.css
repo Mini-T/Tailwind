@@ -1,0 +1,26 @@
+@import "./base/body";
+@font-face {
+    font-family: 'ConfigRegular';
+    src: url("../static/fonts/config-medium-874eac0568.otf");
+}
+@font-face {
+    font-family: 'ConfigItalic';
+    src: url("../static/fonts/config-italic-2-86070cb7c6.otf");
+}
+@font-face {
+    font-family: "BigNoodleTilting";
+    src: url('../static/fonts/big_noodle_titling.ttf');
+}
+@font-face{
+    font-family: "BigNoodleTiltingItalic";
+    src: url('../static/fonts/big_noodle_titling_oblique.ttf') ;
+}
+@font-face {
+    font-family: 'ConfigBold';
+    src: url("../static/fonts/config-bold-2-83c4e66e13.otf");
+}
+body{
+    max-width: 100vw;
+    height: 200vh;
+    font-family: 'ConfigRegular';
+}
